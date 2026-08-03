@@ -19,17 +19,14 @@ then measuring how much of it I've actually applied.
 Claude Certified Architect – Foundations（CCAR-F）で学んだ内容を、
 開発中のアプリにそのまま適用し、**どこまで適用できたかを計測して記録**しています。
 
-```
-  ccar-f-study-skills          paper-repro-mvp
-  ┌──────────────────┐        ┌──────────────────┐
-  │  Learn  / 学ぶ    │  ───▶  │ Apply / 実践する  │
-  │  CCAR-F skills   │        │  Real application │
-  └──────────────────┘        └──────────────────┘
-                                       │
-                                       ▼
-                              docs/arch-guide/
-                              Coverage indicator
-                              適用率インジケーター
+```mermaid
+graph LR
+    A["<b>Learn / 学ぶ</b><br/>CCAR-F skills<br/><br/><i>ccar-f-study-skills</i>"]
+    B["<b>Apply / 実践する</b><br/>Real application<br/><br/><i>paper-repro-mvp</i>"]
+    C["<b>docs/arch-guide/</b><br/>Coverage indicator<br/>適用率インジケーター"]
+
+    A --> B
+    B --> C
 ```
 
 ---
