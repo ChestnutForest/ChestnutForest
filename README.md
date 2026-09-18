@@ -39,7 +39,7 @@ graph LR
 | [**ccar-f-study-skills**](https://github.com/ChestnutForest/ccar-f-study-skills) | Custom Claude Skills for CCAR-F exam preparation. | CCAR-F試験対策のCustom Claude Skills集 |
 | [**processloop**](https://github.com/ChestnutForest/processloop) | Process Dashboard (GPLv3) fork — Next.js port with en/ja i18n. | Process Dashboard のフォーク。Next.js移植＋日英対応 |
 | [**software-engineering-bok**](https://github.com/ChestnutForest/software-engineering-bok) | A reference index of software engineering methods, recorded with their primary sources and licence terms. | ソフトウェア工学の手法を、一次資料と使用条件つきで記録する参照集 |
-| [**Deepware**](https://github.com/ChestnutForest/Deepware) | <!-- TODO: add a one-line description --> | <!-- TODO: 一行の説明を追記 --> |
+| [**Deepware**](https://github.com/ChestnutForest/Deepware) | A scratch repository, created for testing. | 動作確認のために作ったテスト用リポジトリ |
 | [**antigravity-sandbox**](https://github.com/ChestnutForest/antigravity-sandbox) | <!-- TODO: add a one-line description --> | <!-- TODO: 一行の説明を追記 --> |
 
 ---
