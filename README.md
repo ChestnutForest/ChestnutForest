@@ -22,7 +22,7 @@ Claude Certified Architect – Foundations（CCAR-F）で学んだ内容を、
 ```mermaid
 graph LR
     A["<b>Learn / 学ぶ</b><br/>CCAR-F skills<br/><br/><i>ccar-f-study-skills</i>"]
-    B["<b>Apply / 実践する</b><br/>Real application<br/><br/><i>paper-repro-mvp</i>"]
+    B["<b>Apply / 実践する</b><br/>Real application<br/><br/><i>paper-repro</i>"]
     C["<b>docs/arch-guide/</b><br/>Coverage indicator<br/>適用率インジケーター"]
 
     A --> B
@@ -35,9 +35,10 @@ graph LR
 
 | Repository | What it is | 概要 |
 |---|---|---|
-| [**paper-repro-mvp**](https://github.com/ChestnutForest/paper-repro-mvp) | A human-in-the-loop tool for reading and reproducing arXiv papers. FastAPI + Next.js. | arXiv論文の読解〜再現実装を支援するツール（人間の承認を挟む設計） |
+| [**paper-repro**](https://github.com/ChestnutForest/paper-repro) | A human-in-the-loop tool for reading and reproducing arXiv papers. FastAPI + Next.js. | arXiv論文の読解〜再現実装を支援するツール（人間の承認を挟む設計） |
 | [**ccar-f-study-skills**](https://github.com/ChestnutForest/ccar-f-study-skills) | Custom Claude Skills for CCAR-F exam preparation. | CCAR-F試験対策のCustom Claude Skills集 |
 | [**processloop**](https://github.com/ChestnutForest/processloop) | Process Dashboard (GPLv3) fork — Next.js port with en/ja i18n. | Process Dashboard のフォーク。Next.js移植＋日英対応 |
+| [**software-engineering-bok**](https://github.com/ChestnutForest/software-engineering-bok) | A reference index of software engineering methods, recorded with their primary sources and licence terms. | ソフトウェア工学の手法を、一次資料と使用条件つきで記録する参照集 |
 | [**Deepware**](https://github.com/ChestnutForest/Deepware) | <!-- TODO: add a one-line description --> | <!-- TODO: 一行の説明を追記 --> |
 | [**antigravity-sandbox**](https://github.com/ChestnutForest/antigravity-sandbox) | <!-- TODO: add a one-line description --> | <!-- TODO: 一行の説明を追記 --> |
 
@@ -55,6 +56,7 @@ graph LR
   （日々の開発を、検索・再利用できる記録に変えること）
 - **Software process** — PSP/TSP, measurement, and continuous improvement
   （ソフトウェアプロセス — 計測と継続的改善）
+  → [processloop](https://github.com/ChestnutForest/processloop) · [software-engineering-bok](https://github.com/ChestnutForest/software-engineering-bok)
 
 ---
 
